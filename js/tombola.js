@@ -16,7 +16,7 @@ function generateTable(containerId, rows, cols) {   // 1 parametro = id del cont
   
       for (let j = 1; j <= cols; j++) {         // uguale ma con colonne
         const cell = document.createElement('td'); 
-        const number = i * 10 + j;            // i riga *10 numero colonne + j colonne
+        const number = i * 10 + j;              // i riga *10 numero colonne + j colonne
         cell.textContent = number;
         row.appendChild(cell);
       }
